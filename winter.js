@@ -65,3 +65,14 @@ if (animal == "cow") {
 else {
   console.log("hey, youre not a cow");
 };
+
+// Make a variable that will hold a person's age. Be semantic.
+var personAge = 33;
+// Write code that will print out "Here are the keys", if the age is 16 years or older.
+if (personAge >= 16) {
+  console.log("here are the keys")
+}
+// If the age is younger than 16, a message should print "Sorry, you're too young."
+else {
+  console.log("sorry, youre too young")
+};
