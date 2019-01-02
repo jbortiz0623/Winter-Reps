@@ -190,3 +190,16 @@ console.log(sum)
 // Create an array that contains three quotes and store it in a variable called `quotes`.
 
 var quotes = ["Winter ajax-Reps continued.", "Learning is fun, you should try it sometime", "I remember the last time I did ajax calls"]
+
+
+// Given the following array `const randomThings = [1, 10, "Hello", true]`
+const randomThings = [1, 10, "Hello", true]
+// How do you access the 1st element in the array?
+randomThings[0];
+
+// Change the value of `"Hello"` to `"World"`.
+randomThings[2] = "World";
+
+// Check the value of the array to make sure it updated the array.  How?  Why, yes! `console.log()`;
+
+console.log(randomThings);
