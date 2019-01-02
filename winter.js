@@ -345,8 +345,6 @@ function calcCube(sideLength) {
 console.log(calcCube(3));
 
 // Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
-
-
 function isVowel(letter){
     var vowels = ['a','e','i','o','u','A','E','I','O','U']
     vowels.forEach(l => {
@@ -359,7 +357,6 @@ isVowel('a');
 
 // Write a function `getTwoLengths` that accepts two parameters (strings). The function should return an _array_ of numbers where each number is the length of the corresponding string.
 // console.log(getTwoLengths("Hank", "Hippopopalous"));
-
 function getTwoLengths(str1, str2) {
     length1 = str1.length
     length2 = str2.length
@@ -368,12 +365,25 @@ function getTwoLengths(str1, str2) {
 
 getTwoLengths("taco","tacotwo");
 
-// Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should return an array of **numbers** where each number is the length of the corresponding string.
 
+// Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should return an array of **numbers** where each number is the length of the corresponding string.
 function getMultipleLengths(arrayOfStrings){
     arrayOfStrings.forEach(element => {
         console.log(element.length);
     });
 }
-
 getMultipleLengths(["mountains", "are", "going", "places", "believe", "me!"])
+
+
+
+
+// Define a function `maxOfThree` that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+function maxOfThree(one,two,three){
+    if(one>=two && one>=three){
+        console.log(one);
+    } else if(one<=two && one >=three){
+        console.log(two);
+    } else {
+        console.log(three);
+    }
+}
