@@ -34,6 +34,7 @@ var yourName = "jay";
 console.log("Hello, my name is " + yourName);
 
 
+// Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console.
 
 const a = 4;
 const b = 53;
@@ -51,3 +52,16 @@ console.log(e === 'Kevin');
 console.log(a + b == c);
 console.log(a * a == d);
 console.log(48 == '48');
+
+
+
+// Declare a variable `animal`.  Set it to be either "cow" or something else.
+var animal = "cow";
+// Write code that will print out "mooooo" if the it is equal to `cow`.
+if (animal == "cow") {
+  console.log("moo");
+}
+// Change your code so that if the variable `animal` is anything other than a cow, it will print "Hey! You're not a cow."
+else {
+  console.log("hey, youre not a cow");
+};
