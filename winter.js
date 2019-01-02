@@ -367,3 +367,13 @@ function getTwoLengths(str1, str2) {
 }
 
 getTwoLengths("taco","tacotwo");
+
+// Write a function `getMultipleLengths` that accepts a single parameter as an argument: an **array** of **strings**. The function should return an array of **numbers** where each number is the length of the corresponding string.
+
+function getMultipleLengths(arrayOfStrings){
+    arrayOfStrings.forEach(element => {
+        console.log(element.length);
+    });
+}
+
+getMultipleLengths(["mountains", "are", "going", "places", "believe", "me!"])
