@@ -446,3 +446,13 @@ console.log(Math.random()*10);
 //
 // LoremIpsum(quotes2)
 "Not quite sure if this is correct^^^^"
+
+// Create an object called `user`.
+// Write in to the object the key-value pairs for `name`, `email`, `age`, and `purchased`. Set the value of `purchased` to an empty array `[]`. Set the other values to whatever you would like.
+
+var user = {
+    name: "jay",
+    email: "jbortiz0623@gmail.com",
+    age: 25,
+    purchased: []
+};
