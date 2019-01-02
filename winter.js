@@ -27,3 +27,27 @@ var secondVariable = firstVariable
 secondVariable = "hello";
 // What is the value of 'firstVariable'?
 value of firstVariable is 7
+
+// Create a variable called `yourName` and set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable `yourName` so that it returns a new string with them concatenated.
+
+var yourName = "jay";
+console.log("Hello, my name is " + yourName);
+
+
+
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
+
+console.log(a < b);
+console.log(c > d);
+console.log('Name' == 'Name');
+console.log(true != false);
+console.log(false == false == false == false == false == false == true);
+console.log(false === false)
+console.log(e === 'Kevin');
+console.log(a + b == c);
+console.log(a * a == d);
+console.log(48 == '48');
