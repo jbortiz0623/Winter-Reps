@@ -322,3 +322,10 @@ console.log("Thom is looking fierce in a " + shirt + ", " + pants + ", and " + a
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to `Footie Pajamas`.
 thomsCloset[1][2] = "Footie Pajamas"
+
+// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
+
+// Like so?
+console.log(printGreeting("Slimer"));
+
+//You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, read entire problems carefully before doing them from now on.
