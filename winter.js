@@ -424,3 +424,25 @@ console.log(transmogrify(5, 3, 2));
 // See if you can do it without googling.
 
 "I do not understand this"
+
+
+
+//  Write a function that will return a random integer between 1 and 10. Test it.
+console.log(Math.floor(Math.random()*10));
+//  Write a function that will return a random integer between 10 and 100. Test it.
+console.log(Math.floor(Math.random()*90)+10);
+
+
+//  Write a function that will return a random number between 532 and 13267. Test it.
+console.log(Math.floor(Math.random()*(13267-532))+532);
+//  Write a function that will return a random number between 1 and 10. Test it.
+console.log(Math.random()*10);
+//  Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array.  Call your function a few times, passing in the quotes array.  Give it a nice semantic name like `getRandomElement`.
+// var quotes2 = ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."]
+//
+// function LoremIpsum(array17){
+//     console.log(array17[Math.floor(Math.random()*array17.length)]);
+// }
+//
+// LoremIpsum(quotes2)
+"Not quite sure if this is correct^^^^"
