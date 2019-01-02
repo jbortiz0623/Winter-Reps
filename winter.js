@@ -343,3 +343,16 @@ function calcCube(sideLength) {
     return sideLength ** 3
 }
 console.log(calcCube(3));
+
+// Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+
+
+function isVowel(letter){
+    var vowels = ['a','e','i','o','u','A','E','I','O','U']
+    vowels.forEach(l => {
+        if (letter == l){
+            console.log(`${letter} is a vowel`);
+        }
+    });
+}
+isVowel('a')
