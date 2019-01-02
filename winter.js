@@ -164,3 +164,15 @@ for (let i = 0; i <=100; i++) {
 console.log(bank_account);
 
 // >Check your work! Your banck_account should have $10,100 in it.
+
+
+// If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+// Find the sum of all the multiples of 3 or 5 below 1000.  If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
+
+var sum = 0;
+for (i=0; i < 1000; i++){
+  if (i % 3 === 0 || i % 5 === 0) {
+    sum += i;
+  }
+}
+console.log(sum)
