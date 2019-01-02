@@ -355,4 +355,15 @@ function isVowel(letter){
         }
     });
 }
-isVowel('a')
+isVowel('a');
+
+// Write a function `getTwoLengths` that accepts two parameters (strings). The function should return an _array_ of numbers where each number is the length of the corresponding string.
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+function getTwoLengths(str1, str2) {
+    length1 = str1.length
+    length2 = str2.length
+    console.log(length1, length2);
+}
+
+getTwoLengths("taco","tacotwo");
