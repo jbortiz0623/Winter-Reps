@@ -176,3 +176,12 @@ for (i=0; i < 1000; i++){
   }
 }
 console.log(sum)
+
+// What are the things in an array called?
+**Elements
+
+// Do Arrays guarantee those things will be in order?
+**false
+
+// What real-life thing could you model with an array?
+>>>Juice
