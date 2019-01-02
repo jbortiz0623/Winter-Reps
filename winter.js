@@ -232,3 +232,19 @@ myArray.unshift("Bob Marley")
 myArray.pop()
 // Reverse this array using `Array.prototype.reverse()`.  Did you mutate the array? What does _mutate_ mean? Did the `.reverse()` method return anything?
 myArray.reverse()
+
+
+// Create a variable that contains an integer.
+var number = 5;
+
+// Write an `if ... else` statement that:
+
+// `console.log()`s "little number" if the number is entered is less than **100**
+if (number < 100) {
+  console.log('little number')
+}
+
+// `console.log()`s `big number` if the number is greater than or equal to 100.
+else (number >= 100) {
+  console.log("big number")
+}
