@@ -185,3 +185,8 @@ console.log(sum)
 
 // What real-life thing could you model with an array?
 >>>Juice
+
+
+// Create an array that contains three quotes and store it in a variable called `quotes`.
+
+var quotes = ["Winter ajax-Reps continued.", "Learning is fun, you should try it sometime", "I remember the last time I did ajax calls"]
