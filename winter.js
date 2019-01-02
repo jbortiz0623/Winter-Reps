@@ -332,9 +332,14 @@ console.log(printGreeting("Slimer"));
 
 
 // Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
-
 // console.log(printCool("Captain Reynolds"));
-
 function printCool(name) {
   console.log(`${name} is cool.`)
 }
+
+// Write a function `calculateCube` that takes a single number and prints the volume of a cube made from that number.
+// console.log(calculateCube(5));
+function calcCube(sideLength) {
+    return sideLength ** 3
+}
+console.log(calcCube(3));
